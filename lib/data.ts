@@ -8,9 +8,10 @@ import taskManagerImg from "@/public/taskmanager.png";
 import rahulProfileImg from "../public/rahul_profile.jpeg"
 import { calculateExperience } from "./utils";
 
-export const userName = "Rahul"
-export const userPhoto = rahulProfileImg
-export const userEmail = "rahulrajbhar19999@gmail.com"
+export const userName = "Laxmi Rajbhar";
+export const userPhoto = laxmiProfileImg;
+export const userEmail = "laxmirajbhar39@gmail.com";
+
 
 export const links = [
   {
@@ -41,41 +42,37 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated in BSc.(C.S)",
-    location: "Mumbai, Jogeswheri(E)",
-    description:
-    "I graduated in BSc. computer science from ismail yusuf college (Mumbai University)",
-      // "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+    title: "Bachelor's of Banking and Insurance (BBI) ",
+    location: "Ramniranjan Jhunjhunwala College",
+    description: "Earned a Bachelor's degree in Banking and Insurance, gaining insights into financial management and business operations.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "Jun 2019 - Apr 2021",
   },
   {
-    title: "Master's in Computer Science",
-    location: "Mumbai, Goregaon(W)",
+    title: "Master's in Business Management (CGPA- 8.96)",
+    location: "Ramniranjan Jhunjhunwala College",
+    description: "Completed a Master's in Business Management, focusing on digital marketing and business strategies.",
+    icon: React.createElement(LuGraduationCap),
+    date: "Jun 2021 - Apr 2023",
+  },
+  {
+    title: "SEO Intern",
+    location: "Kerkar Media, Andheri",
     description:
-    "I am completed my MSc. computer science from patkar varde college (Mumbai University)",
-      // "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Assisted in SEO tasks, including keyword research, content optimization, and link-building. Contributed to UI/UX improvements and technical SEO fixes.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "February 2024 - April 2024",
   },
   {
-    title: "Software Developer",
-    location: "Mumbai, Andheri(E)",
+    title: "SEO Executive",
+    location: "Kerkar Media, Andheri",
     description:
-      `I worked as a Developer developer for 3 years. My stack includes React, Next.js, TypeScript, Tailwind and MongoDB.`,
-      // "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - 2024",
-  },
-  {
-    "title": "Full-Stack Developer",
-    "location": "Mumbai, Goregaon(E)",
-    "description":
-      `I have been working as a full-stack developer for ${calculateExperience("01-07-2021")} years, focusing primarily on the MEAN stack. My role is heavily centered around front-end development using Angular, where I contribute to building scalable and responsive web applications.`,
-    "icon": React.createElement(FaAngular),
-    "date": "2024 - present",
+      "Implemented SEO strategies, conducted website audits, optimized content, and improved organic traffic. Specialized in keyword research, on-page optimization, and link-building techniques.",
+    icon: React.createElement(CgWorkAlt),
+    date: "May 2024 - November 2024",
   }
 ] as const;
+
 
 export const projectsData = [
   {
@@ -102,30 +99,19 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "React Native",
-  "Angular",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  // "Prisma",
-  "MongoDB",
-  "Docker",
-  "RabbitMQ",
-  "NGNIX",
-  "PM2",
-  // "Redux",
-  // "GraphQL",
-  // "Apollo",
-  "Express",
-  // "PostgreSQL",
-  "MySQL",
-  // "Python",
-  // "Django",
-  // "Framer Motion",
+  "SEO Strategy Development",
+  "Technical SEO Audits",
+  "Keyword Research",
+  "On-Page Optimization",
+  "Google Analytics",
+  "Google Search Console",
+  "Content Optimization",
+  "Link-Building Techniques",
+  "HTML & CSS",
+  "WordPress",
+  "Ahrefs",
+  "Semrush",
+  "CorelDraw",
+  "Photoshop",
+  "Canva",
 ] as const;
