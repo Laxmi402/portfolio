@@ -9,7 +9,7 @@ import rahulProfileImg from "../public/rahul_profile.jpeg"
 import { calculateExperience } from "./utils";
 
 export const userName = "Laxmi Rajbhar";
-export const userPhoto = laxmiProfileImg;
+export const userPhoto = 'laxmiProfileImg';
 export const userEmail = "laxmirajbhar39@gmail.com";
 
 
